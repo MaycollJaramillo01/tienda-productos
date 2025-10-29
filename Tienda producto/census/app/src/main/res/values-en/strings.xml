@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">product_store</string>
+    <string name="ErrorMsgAdd">Error when adding the product</string>
+    <string name="ErrorMsgUpdate">Error when updating the product</string>
+    <string name="ErrorMsgDelete">Error when deleting the product</string>
+    <string name="ErrorMsgGetAll">Error when getting all products</string>
+    <string name="ErrorMsgGetById">Error when trying to get the specific product</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">tienda_productos</string>
+    <string name="ErrorMsgAdd">Error al agregar el producto</string>
+    <string name="ErrorMsgUpdate">Error al modificar el producto</string>
+    <string name="ErrorMsgDelete">Error al eliminar el producto</string>
+    <string name="ErrorMsgGetAll">Error al obtener todos los productos</string>
+    <string name="ErrorMsgGetById">Error al obtener el producto específico</string>
+</resources>

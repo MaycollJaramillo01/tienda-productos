@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="gender_options">
+        <item>@string/hint_gender</item>
+        <item>@string/gender_female</item>
+        <item>@string/gender_male</item>
+        <item>@string/gender_other</item>
+    </string-array>
+</resources>

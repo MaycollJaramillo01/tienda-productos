@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Gestor de Personas</string>
+
+    <!-- Main menu -->
+    <string name="menu_create_person">Crear persona</string>
+    <string name="menu_list_persons">Listar personas</string>
+    <string name="menu_exit">Salir</string>
+    <string name="main_welcome_message">Usa el menú para gestionar el registro de personas.</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_confirm_positive">Aceptar</string>
+    <string name="dialog_confirm_negative">Cancelar</string>
+    <string name="dialog_info_title">Información</string>
+    <string name="dialog_exit_title">Cerrar aplicación</string>
+    <string name="dialog_exit_message">¿Deseas salir de la aplicación?</string>
+    <string name="dialog_confirm_save_title">Confirmar registro</string>
+    <string name="dialog_confirm_save_message">¿Deseas guardar la información de la persona?</string>
+    <string name="dialog_confirm_update_title">Confirmar actualización</string>
+    <string name="dialog_confirm_update_message">¿Deseas actualizar la información de la persona?</string>
+    <string name="dialog_confirm_delete_title">Eliminar persona</string>
+    <string name="dialog_confirm_delete_message">¿Deseas eliminar a %1$s?</string>
+
+    <!-- Form labels and actions -->
+    <string name="title_person_form_create">Nueva persona</string>
+    <string name="title_person_form_edit">Editar persona</string>
+    <string name="hint_name">Nombre completo</string>
+    <string name="hint_age">Edad</string>
+    <string name="hint_gender">Selecciona el género</string>
+    <string name="label_gender">Género</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_update">Actualizar</string>
+
+    <!-- Gender -->
+    <string name="gender_female">Femenino</string>
+    <string name="gender_male">Masculino</string>
+    <string name="gender_other">Otro</string>
+
+    <!-- List -->
+    <string name="title_person_list">Personas registradas</string>
+    <string name="message_no_persons">No hay personas registradas.</string>
+    <string name="content_description_add_person">Agregar persona</string>
+    <string name="content_description_edit_person">Editar persona</string>
+    <string name="content_description_delete_person">Eliminar persona</string>
+    <string name="item_age_format">Edad: %1$d años</string>
+    <string name="item_gender_format">Género: %1$s</string>
+
+    <!-- Messages -->
+    <string name="message_person_saved">Persona registrada correctamente.</string>
+    <string name="message_person_updated">Persona actualizada correctamente.</string>
+    <string name="message_person_deleted">Persona eliminada correctamente.</string>
+
+    <!-- Errors -->
+    <string name="error_empty_name">El nombre no puede estar vacío.</string>
+    <string name="error_empty_age">La edad es obligatoria.</string>
+    <string name="error_invalid_age">La edad debe ser un número mayor a cero.</string>
+    <string name="error_invalid_gender">Selecciona un género válido.</string>
+    <string name="error_add_person">No fue posible guardar a la persona.</string>
+    <string name="error_update_person">No fue posible actualizar a la persona.</string>
+    <string name="error_delete_person">No fue posible eliminar a la persona seleccionada.</string>
+    <string name="error_get_all_persons">No fue posible obtener la lista de personas.</string>
+    <string name="error_person_not_found">No se encontró la persona seleccionada.</string>
+    <string name="error_general_operation">Ocurrió un error al procesar la operación.</string>
+</resources>

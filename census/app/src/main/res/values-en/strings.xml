@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">People Manager</string>
+
+    <!-- Main menu -->
+    <string name="menu_create_person">Create person</string>
+    <string name="menu_list_persons">List people</string>
+    <string name="menu_exit">Exit</string>
+    <string name="main_welcome_message">Use the menu to manage the people records.</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_confirm_positive">Confirm</string>
+    <string name="dialog_confirm_negative">Cancel</string>
+    <string name="dialog_info_title">Information</string>
+    <string name="dialog_exit_title">Close application</string>
+    <string name="dialog_exit_message">Do you want to close the application?</string>
+    <string name="dialog_confirm_save_title">Confirm save</string>
+    <string name="dialog_confirm_save_message">Do you want to save this person information?</string>
+    <string name="dialog_confirm_update_title">Confirm update</string>
+    <string name="dialog_confirm_update_message">Do you want to update this person information?</string>
+    <string name="dialog_confirm_delete_title">Delete person</string>
+    <string name="dialog_confirm_delete_message">Do you want to delete %1$s?</string>
+
+    <!-- Form labels and actions -->
+    <string name="title_person_form_create">New person</string>
+    <string name="title_person_form_edit">Edit person</string>
+    <string name="hint_name">Full name</string>
+    <string name="hint_age">Age</string>
+    <string name="hint_gender">Select the gender</string>
+    <string name="label_gender">Gender</string>
+    <string name="action_save">Save</string>
+    <string name="action_update">Update</string>
+
+    <!-- Gender -->
+    <string name="gender_female">Female</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_other">Other</string>
+
+    <!-- List -->
+    <string name="title_person_list">Registered people</string>
+    <string name="message_no_persons">No people registered yet.</string>
+    <string name="content_description_add_person">Add person</string>
+    <string name="content_description_edit_person">Edit person</string>
+    <string name="content_description_delete_person">Delete person</string>
+    <string name="item_age_format">Age: %1$d years</string>
+    <string name="item_gender_format">Gender: %1$s</string>
+
+    <!-- Messages -->
+    <string name="message_person_saved">Person saved successfully.</string>
+    <string name="message_person_updated">Person updated successfully.</string>
+    <string name="message_person_deleted">Person deleted successfully.</string>
+
+    <!-- Errors -->
+    <string name="error_empty_name">Name cannot be empty.</string>
+    <string name="error_empty_age">Age is required.</string>
+    <string name="error_invalid_age">Age must be a number greater than zero.</string>
+    <string name="error_invalid_gender">Please select a valid gender.</string>
+    <string name="error_add_person">The person could not be saved.</string>
+    <string name="error_update_person">The person could not be updated.</string>
+    <string name="error_delete_person">The selected person could not be deleted.</string>
+    <string name="error_get_all_persons">The list of people could not be retrieved.</string>
+    <string name="error_person_not_found">The selected person was not found.</string>
+    <string name="error_general_operation">An error occurred while processing the request.</string>
+</resources>

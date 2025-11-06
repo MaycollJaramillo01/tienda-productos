@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Censo</string>
+    <string name="action_add_person">Agregar persona</string>
+    <string name="action_about">Acerca de</string>
+    <string name="dialog_person_title">Seleccione una acción para %1$s</string>
+    <string name="dialog_delete_title">Eliminar persona</string>
+    <string name="dialog_delete_message">¿Está seguro de eliminar a %1$s?</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_edit_person">Editar</string>
+    <string name="empty_state">Todavía no hay personas registradas. Use el botón para crear un nuevo registro.</string>
+    <string name="label_first_name">Nombre</string>
+    <string name="label_last_name">Apellidos</string>
+    <string name="label_email">Correo electrónico</string>
+    <string name="label_phone">Teléfono</string>
+    <string name="action_save">Guardar</string>
+    <string name="message_saved_success">Persona guardada con éxito</string>
+    <string name="message_deleted_success">Persona eliminada con éxito</string>
+    <string name="error_required_field">Este campo es obligatorio</string>
+    <string name="error_invalid_email">Ingrese un correo válido</string>
+    <string name="title_add_person">Agregar persona</string>
+    <string name="title_edit_person">Editar persona</string>
+    <string name="title_about">Acerca de</string>
+    <string name="about_title">Aplicación Censo</string>
+    <string name="about_description">Proyecto de ejemplo que demuestra un flujo CRUD completo con MVVM, Room y componentes de Material Design.</string>
+</resources>

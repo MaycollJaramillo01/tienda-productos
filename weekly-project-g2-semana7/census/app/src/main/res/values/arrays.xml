@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="person_actions">
+        <item>@string/action_edit_person</item>
+        <item>@string/action_delete</item>
+    </string-array>
+</resources>

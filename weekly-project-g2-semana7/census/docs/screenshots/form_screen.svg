@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320">
+  <rect width="480" height="320" fill="#fafafa" />
+  <rect x="0" y="0" width="480" height="56" fill="#1976d2" />
+  <text x="24" y="34" font-size="20" fill="#ffffff" font-family="sans-serif">Add person</text>
+  <rect x="24" y="80" width="432" height="40" rx="6" fill="#ffffff" stroke="#e0e0e0" />
+  <text x="32" y="104" font-size="14" fill="#9e9e9e" font-family="sans-serif">First name</text>
+  <rect x="24" y="136" width="432" height="40" rx="6" fill="#ffffff" stroke="#e0e0e0" />
+  <text x="32" y="160" font-size="14" fill="#9e9e9e" font-family="sans-serif">Last name</text>
+  <rect x="24" y="192" width="432" height="40" rx="6" fill="#ffffff" stroke="#e0e0e0" />
+  <text x="32" y="216" font-size="14" fill="#9e9e9e" font-family="sans-serif">Email</text>
+  <rect x="24" y="248" width="432" height="40" rx="6" fill="#ffffff" stroke="#e0e0e0" />
+  <text x="32" y="272" font-size="14" fill="#9e9e9e" font-family="sans-serif">Phone</text>
+  <rect x="156" y="288" width="168" height="32" rx="16" fill="#1976d2" />
+  <text x="220" y="310" font-size="14" fill="#ffffff" font-family="sans-serif">Save</text>
+</svg>

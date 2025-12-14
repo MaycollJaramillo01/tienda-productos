@@ -36,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
-                tools:text="30 años" />
+                tools:text="30 years" />
 
             <TextView
                 android:id="@+id/personGenderTextView"
@@ -44,7 +44,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
                 android:textAppearance="@style/TextAppearance.Material3.BodySmall"
-                tools:text="Masculino" />
+                tools:text="Male" />
         </LinearLayout>
 
         <LinearLayout

@@ -1,4 +1,4 @@
-package com.example.census.Util
+package com.example.census.util
 
 import android.content.Context
 import android.content.Intent

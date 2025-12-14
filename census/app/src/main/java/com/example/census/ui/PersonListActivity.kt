@@ -10,8 +10,8 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.census.Controller.PersonController
-import com.example.census.Entity.Person
+import com.example.census.controller.PersonController
+import com.example.census.entity.Person
 import com.example.census.R
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 

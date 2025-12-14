@@ -1,4 +1,4 @@
-package com.example.census.Entity
+package com.example.census.entity
 
 /**
  * Represents a person inside the census application.

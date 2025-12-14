@@ -1,6 +1,6 @@
-package com.example.census.Data
+package com.example.census.data
 
-import com.example.census.Entity.Person
+import com.example.census.entity.Person
 
 /**
  * Defines the contract to manage [Person] data regardless of the concrete persistence mechanism.

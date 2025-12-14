@@ -1,9 +1,9 @@
-package com.example.census.Controller
+package com.example.census.controller
 
 import android.content.Context
-import com.example.census.Data.IPersonDataManager
-import com.example.census.Data.MemoryDataManager
-import com.example.census.Entity.Person
+import com.example.census.data.IPersonDataManager
+import com.example.census.data.MemoryDataManager
+import com.example.census.entity.Person
 import com.example.census.R
 
 /**

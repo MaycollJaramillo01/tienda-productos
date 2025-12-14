@@ -5,7 +5,7 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import com.example.census.Util.ActivityUtils
+import com.example.census.util.ActivityUtils
 import com.example.census.ui.PersonFormActivity
 import com.example.census.ui.PersonListActivity
 

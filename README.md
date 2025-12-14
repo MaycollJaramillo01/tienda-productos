@@ -54,3 +54,49 @@ Fecha: 16 de octubre del 2025
 <img width="804" height="1106" alt="image" src="https://github.com/user-attachments/assets/64a2e091-d5de-45b8-a73a-a9ca854a8b92" />
 
 <img width="713" height="1194" alt="image" src="https://github.com/user-attachments/assets/fd0cf629-f381-49f1-ba31-800d7679f15a" />
+
+## API REST para la app móvil
+Para soportar las operaciones CRUD desde el cliente móvil se añadió un backend propio construido con **FastAPI**. El servicio expone un conjunto de endpoints REST y puede ejecutarse localmente con SQLite o desplegarse en la nube usando un contenedor.
+
+### Requisitos
+- Python 3.11+.
+- Las dependencias listadas en `requirements.txt`.
+
+### Ejecución local
+1. Crear y activar un entorno virtual (opcional pero recomendado):
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate
+   ```
+2. Instalar dependencias:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Iniciar el servidor de desarrollo en http://localhost:8000:
+   ```bash
+   uvicorn api.main:app --reload
+   ```
+
+El servicio crea automáticamente una base de datos SQLite (`data.db`) en la raíz del repositorio si no existe.
+
+### Configuración de base de datos
+- `DATABASE_URL`: cadena de conexión opcional para usar un motor diferente (por ejemplo, PostgreSQL en la nube). Si no se define, se usa SQLite local.
+
+### Despliegue en la nube (ejemplo con contenedor)
+1. Construir la imagen:
+   ```bash
+   docker build -t tienda-productos-api .
+   ```
+2. Ejecutarla indicando el puerto de escucha y la base de datos deseada:
+   ```bash
+   docker run -e DATABASE_URL=postgresql://usuario:clave@host:5432/tienda -p 8000:8000 tienda-productos-api
+   ```
+3. Llevar la imagen a tu proveedor favorito (Render, Railway, Fly.io, etc.) configurando la variable `DATABASE_URL` y mapeando el puerto 8000.
+
+### Endpoints principales
+- `GET /health`: verificación rápida de estado.
+- `POST /products`: crea un producto.
+- `GET /products`: lista todos los productos.
+- `GET /products/{id}`: devuelve el detalle de un producto.
+- `PUT /products/{id}`: actualiza campos enviados del producto.
+- `DELETE /products/{id}`: elimina el producto.

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+*.sqlite3
+*.db
+
+# Node
+node_modules/
+
+# Gradle/Android
+.gradle/
+**/.gradle/
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
